@@ -14,7 +14,7 @@ class Rectangulo:Figura
     {
         Console.WriteLine($"Se dibuja un rectángulo");
     }
-    public override int Area()
+    public override double Area()
     {
         return Math.l*a;
     }
@@ -28,9 +28,9 @@ class Circulo:Figura
     {
         Console.WriteLine($"Se dibuja un círculo");
     }
-    public override int Area()
-    {
-        
+    public override double Area()
+    {   
+
         return Math.PI(Diametro/2)^2;
     }
 }
